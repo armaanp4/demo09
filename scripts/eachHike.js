@@ -24,3 +24,4 @@ function saveHikeDocumentIDAndRedirect(){
     localStorage.setItem('hikeDocID', ID);
     window.location.href = 'review.html';
 }
+saveHikeDocumentIDAndRedirect();
